@@ -1,6 +1,5 @@
-//your JS code here. If required.
 document.addEventListener("DOMContentLoaded", function() {
-  // DOM is loaded and ready to be manipulated here
+  document.body.innerHTML = ""; // Clear any existing content in body
   const pTag = document.createElement("p");
   const textNode = document.createTextNode("DOM load success");
   pTag.appendChild(textNode);
